@@ -1,0 +1,554 @@
+{
+  "posts": [
+    {
+      "id": "p001",
+      "user": {
+        "id": "u001",
+        "username": "dinesh_dev",
+        "fullName": "Dinesh Selvam",
+        "profilePic": "https://i.pravatar.cc/150?img=1"
+      },
+      "image": "https://picsum.photos/id/1011/600/600",
+      "caption": "Building my Instagram clone 🚀",
+      "likes": [
+        {
+          "userId": "u002",
+          "username": "ananya_art"
+        },
+        {
+          "userId": "u003",
+          "username": "travel_with_arun"
+        }
+      ],
+      "comments": [
+        {
+          "id": "c001",
+          "user": {
+            "id": "u002",
+            "username": "ananya_art",
+            "profilePic": "https://i.pravatar.cc/150?img=2"
+          },
+          "text": "Looks awesome 🔥",
+          "createdAt": "2026-05-01T10:30:00Z"
+        }
+      ],
+      "likesCount": 2,
+      "commentsCount": 1,
+      "isLikedByCurrentUser": false,
+      "createdAt": "2026-05-01T10:00:00Z"
+    },
+    {
+      "id": "p002",
+      "user": {
+        "id": "u002",
+        "username": "ananya_art",
+        "fullName": "Ananya Raj",
+        "profilePic": "https://i.pravatar.cc/150?img=2"
+      },
+      "image": "https://picsum.photos/id/1025/600/600",
+      "caption": "New artwork ✨",
+      "likes": [
+        {
+          "userId": "u001",
+          "username": "dinesh_dev"
+        }
+      ],
+      "comments": [],
+      "likesCount": 1,
+      "commentsCount": 0,
+      "isLikedByCurrentUser": true,
+      "createdAt": "2026-05-02T14:30:00Z"
+    },
+    {
+      "id": "p003",
+      "user": {
+        "id": "u003",
+        "username": "travel_with_arun",
+        "fullName": "Arun Kumar",
+        "profilePic": "https://i.pravatar.cc/150?img=3"
+      },
+      "image": "https://picsum.photos/id/1043/600/600",
+      "caption": "Sunset vibes 🌅",
+      "likes": [
+        {
+          "userId": "u001",
+          "username": "dinesh_dev"
+        },
+        {
+          "userId": "u002",
+          "username": "ananya_art"
+        }
+      ],
+      "comments": [],
+      "likesCount": 2,
+      "commentsCount": 0,
+      "isLikedByCurrentUser": true,
+      "createdAt": "2026-05-03T18:15:00Z"
+    },
+    {
+      "id": "p004",
+      "user": {
+        "id": "u004",
+        "username": "fitness_ravi",
+        "fullName": "Ravi Kumar",
+        "profilePic": "https://i.pravatar.cc/150?img=4"
+      },
+      "image": "https://picsum.photos/id/1052/600/600",
+      "caption": "Morning workout 💪",
+      "likes": [],
+      "comments": [],
+      "likesCount": 0,
+      "commentsCount": 0,
+      "isLikedByCurrentUser": false,
+      "createdAt": "2026-05-03T06:30:00Z"
+    },
+    {
+      "id": "p005",
+      "user": {
+        "id": "u005",
+        "username": "foodie_priya",
+        "fullName": "Priya Sharma",
+        "profilePic": "https://i.pravatar.cc/150?img=5"
+      },
+      "image": "https://picsum.photos/id/1080/600/600",
+      "caption": "Delicious dosa 🤤",
+      "likes": [
+        {
+          "userId": "u001",
+          "username": "dinesh_dev"
+        }
+      ],
+      "comments": [],
+      "likesCount": 1,
+      "commentsCount": 0,
+      "isLikedByCurrentUser": true,
+      "createdAt": "2026-05-02T08:00:00Z"
+    },
+    {
+      "id": "p006",
+      "user": {
+        "id": "u006",
+        "username": "tech_guru",
+        "fullName": "Vikram Tech",
+        "profilePic": "https://i.pravatar.cc/150?img=6"
+      },
+      "image": "https://picsum.photos/id/180/600/600",
+      "caption": "New setup 🔥",
+      "likes": [],
+      "comments": [],
+      "likesCount": 0,
+      "commentsCount": 0,
+      "isLikedByCurrentUser": false,
+      "createdAt": "2026-05-01T20:00:00Z"
+    },
+    {
+      "id": "p007",
+      "user": {
+        "id": "u007",
+        "username": "nature_love",
+        "fullName": "Meena",
+        "profilePic": "https://i.pravatar.cc/150?img=7"
+      },
+      "image": "https://picsum.photos/id/106/600/600",
+      "caption": "Green everywhere 🌿",
+      "likes": [],
+      "comments": [],
+      "likesCount": 0,
+      "commentsCount": 0,
+      "isLikedByCurrentUser": false,
+      "createdAt": "2026-05-02T11:00:00Z"
+    },
+    {
+      "id": "p008",
+      "user": {
+        "id": "u008",
+        "username": "music_vibes",
+        "fullName": "Karthik",
+        "profilePic": "https://i.pravatar.cc/150?img=8"
+      },
+      "image": "https://picsum.photos/id/177/600/600",
+      "caption": "Chill playlist 🎧",
+      "likes": [
+        {
+          "userId": "u002",
+          "username": "ananya_art"
+        }
+      ],
+      "comments": [],
+      "likesCount": 1,
+      "commentsCount": 0,
+      "isLikedByCurrentUser": false,
+      "createdAt": "2026-05-03T09:00:00Z"
+    },
+    {
+      "id": "p009",
+      "user": {
+        "id": "u009",
+        "username": "bike_rider",
+        "fullName": "Sathish",
+        "profilePic": "https://i.pravatar.cc/150?img=9"
+      },
+      "image": "https://picsum.photos/id/1076/600/600",
+      "caption": "Ride mode ON 🏍️",
+      "likes": [],
+      "comments": [],
+      "likesCount": 0,
+      "commentsCount": 0,
+      "isLikedByCurrentUser": false,
+      "createdAt": "2026-05-01T16:00:00Z"
+    },
+    {
+      "id": "p010",
+      "user": {
+        "id": "u010",
+        "username": "coding_life",
+        "fullName": "Harish",
+        "profilePic": "https://i.pravatar.cc/150?img=10"
+      },
+      "image": "https://picsum.photos/id/1005/600/600",
+      "caption": "Late night coding 🌙",
+      "likes": [
+        {
+          "userId": "u001",
+          "username": "dinesh_dev"
+        }
+      ],
+      "comments": [],
+      "likesCount": 1,
+      "commentsCount": 0,
+      "isLikedByCurrentUser": true,
+      "createdAt": "2026-05-02T23:00:00Z"
+    },
+    {
+      "id": "p011",
+      "user": {
+        "id": "u011",
+        "username": "pet_world",
+        "fullName": "Sneha",
+        "profilePic": "https://i.pravatar.cc/150?img=11"
+      },
+      "image": "https://picsum.photos/id/1024/600/600",
+      "caption": "Cute puppy 🐶",
+      "likes": [],
+      "comments": [],
+      "likesCount": 0,
+      "commentsCount": 0,
+      "isLikedByCurrentUser": false,
+      "createdAt": "2026-05-03T13:00:00Z"
+    },
+    {
+      "id": "p012",
+      "user": {
+        "id": "u012",
+        "username": "travel_diaries",
+        "fullName": "Deepak",
+        "profilePic": "https://i.pravatar.cc/150?img=12"
+      },
+      "image": "https://picsum.photos/id/1015/600/600",
+      "caption": "Mountains calling 🏔️",
+      "likes": [
+        {
+          "userId": "u003",
+          "username": "travel_with_arun"
+        }
+      ],
+      "comments": [],
+      "likesCount": 1,
+      "commentsCount": 0,
+      "isLikedByCurrentUser": false,
+      "createdAt": "2026-05-01T07:00:00Z"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "u013",
+      "username": "design_with_arya",
+      "fullName": "Arya",
+      "profilePic": "https://i.pravatar.cc/150?img=13",
+      "bio": "UI/UX Designer 🎨",
+      "followers": 1200,
+      "following": 300,
+      "mutualFollowers": [
+        {
+          "id": "u002",
+          "username": "ananya_art"
+        },
+        {
+          "id": "u003",
+          "username": "travel_with_arun"
+        }
+      ],
+      "mutualFollowersCount": 2,
+      "isFollowing": false
+    },
+    {
+      "id": "u014",
+      "username": "code_master",
+      "fullName": "Rohit",
+      "profilePic": "https://i.pravatar.cc/150?img=14",
+      "bio": "Full Stack Dev 🚀",
+      "followers": 980,
+      "following": 410,
+      "mutualFollowers": [
+        {
+          "id": "u001",
+          "username": "dinesh_dev"
+        }
+      ],
+      "mutualFollowersCount": 1,
+      "isFollowing": false
+    },
+    {
+      "id": "u015",
+      "username": "travel_addict",
+      "fullName": "Nisha",
+      "profilePic": "https://i.pravatar.cc/150?img=15",
+      "bio": "Wanderlust 🌍",
+      "followers": 2100,
+      "following": 500,
+      "mutualFollowers": [],
+      "mutualFollowersCount": 0,
+      "isFollowing": false
+    },
+    {
+      "id": "u016",
+      "username": "food_explorer",
+      "fullName": "Kiran",
+      "profilePic": "https://i.pravatar.cc/150?img=16",
+      "bio": "Food Blogger 🍕",
+      "followers": 760,
+      "following": 290,
+      "mutualFollowers": [
+        {
+          "id": "u005",
+          "username": "foodie_priya"
+        }
+      ],
+      "mutualFollowersCount": 1,
+      "isFollowing": false
+    },
+    {
+      "id": "u017",
+      "username": "gym_life",
+      "fullName": "Suresh",
+      "profilePic": "https://i.pravatar.cc/150?img=17",
+      "bio": "Fitness Trainer 💪",
+      "followers": 540,
+      "following": 180,
+      "mutualFollowers": [],
+      "mutualFollowersCount": 0,
+      "isFollowing": false
+    },
+    {
+      "id": "u018",
+      "username": "photo_magic",
+      "fullName": "Lavanya",
+      "profilePic": "https://i.pravatar.cc/150?img=18",
+      "bio": "Photography 📸",
+      "followers": 1300,
+      "following": 600,
+      "mutualFollowers": [
+        {
+          "id": "u003",
+          "username": "travel_with_arun"
+        }
+      ],
+      "mutualFollowersCount": 1,
+      "isFollowing": false
+    },
+    {
+      "id": "u019",
+      "username": "startup_story",
+      "fullName": "Ajay",
+      "profilePic": "https://i.pravatar.cc/150?img=19",
+      "bio": "Entrepreneur 💼",
+      "followers": 2200,
+      "following": 800,
+      "mutualFollowers": [],
+      "mutualFollowersCount": 0,
+      "isFollowing": false
+    },
+    {
+      "id": "u020",
+      "username": "movie_buff",
+      "fullName": "Rahul",
+      "profilePic": "https://i.pravatar.cc/150?img=20",
+      "bio": "Cinema Lover 🎬",
+      "followers": 670,
+      "following": 320,
+      "mutualFollowers": [
+        {
+          "id": "u001",
+          "username": "dinesh_dev"
+        }
+      ],
+      "mutualFollowersCount": 1,
+      "isFollowing": false
+    }
+  ],
+  "profile": {
+    "id": "u001",
+    "username": "ItzDs",
+    "fullName": "Dinesh Selvam",
+    "profilePic": "https://picsum.photos/id/1025/600/600",
+    "bio": "Frontend developer 💻 | React lover ⚛️",
+    "postsCount": 12,
+    "followersCount": 120,
+    "followingCount": 180,
+    "isOwnProfile": true
+  },
+  "profilePosts": [
+    {
+      "id": "p001",
+      "image": "https://picsum.photos/id/1011/600/600",
+      "likesCount": 45,
+      "commentsCount": 5
+    },
+    {
+      "id": "p002",
+      "image": "https://picsum.photos/id/1025/600/600",
+      "likesCount": 120,
+      "commentsCount": 10
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h001",
+      "title": "Work",
+      "coverImage": "https://picsum.photos/id/180/200/200"
+    },
+    {
+      "id": "h002",
+      "title": "Travel",
+      "coverImage": "https://picsum.photos/id/1015/200/200"
+    },
+    {
+      "id": "h003",
+      "title": "Food",
+      "coverImage": "https://picsum.photos/id/1080/200/200"
+    }
+  ],
+  "stories": [
+    {
+      "id": "1",
+      "user": {
+        "id": "u001",
+        "username": "dinesh_dev",
+        "profilePic": "https://i.pravatar.cc/150?img=1"
+      },
+      "stories": {
+        "id": "st001",
+        "image": "https://picsum.photos/id/1012/400/700",
+        "createdAt": "2026-05-06T08:00:00Z",
+        "viewersCount": 62
+      },
+      "hasViewed": false
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": "u002",
+        "username": "ananya_art",
+        "profilePic": "https://i.pravatar.cc/150?img=2"
+      },
+      "stories": {
+        "id": "st002",
+        "image": "https://picsum.photos/id/1025/400/700",
+        "createdAt": "2026-05-06T07:30:00Z",
+        "viewersCount": 120
+      },
+      "hasViewed": true
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": "u003",
+        "username": "travel_with_arun",
+        "profilePic": "https://i.pravatar.cc/150?img=3"
+      },
+      "stories": {
+        "id": "st003",
+        "image": "https://picsum.photos/id/1044/400/700",
+        "createdAt": "2026-05-06T10:00:00Z",
+        "viewersCount": 390
+      },
+      "hasViewed": false
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": "u004",
+        "username": "fitness_ravi",
+        "profilePic": "https://i.pravatar.cc/150?img=4"
+      },
+      "stories": {
+        "id": "st004",
+        "image": "https://picsum.photos/id/1052/400/700",
+        "createdAt": "2026-05-06T05:45:00Z",
+        "viewersCount": 78
+      },
+      "hasViewed": true
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": "u005",
+        "username": "foodie_priya",
+        "profilePic": "https://i.pravatar.cc/150?img=5"
+      },
+      "stories": {
+        "id": "st005",
+        "image": "https://picsum.photos/id/1080/400/700",
+        "createdAt": "2026-05-06T11:00:00Z",
+        "viewersCount": 210
+      },
+      "hasViewed": false
+    },
+    {
+      "id": "6",
+      "user": {
+        "id": "u006",
+        "username": "tech_guru",
+        "profilePic": "https://i.pravatar.cc/150?img=6"
+      },
+      "stories": {
+        "id": "st006",
+        "image": "https://picsum.photos/id/180/400/700",
+        "createdAt": "2026-05-06T04:20:00Z",
+        "viewersCount": 98
+      },
+      "hasViewed": true
+    },
+    {
+      "id": "7",
+      "user": {
+        "id": "u007",
+        "username": "nature_love",
+        "profilePic": "https://i.pravatar.cc/150?img=7"
+      },
+      "stories": {
+        "id": "st007",
+        "image": "https://picsum.photos/id/106/400/700",
+        "createdAt": "2026-05-06T09:10:00Z",
+        "viewersCount": 56
+      },
+      "hasViewed": false
+    },
+    {
+      "id": "8",
+      "user": {
+        "id": "u008",
+        "username": "music_vibes",
+        "profilePic": "https://i.pravatar.cc/150?img=8"
+      },
+      "stories": {
+        "id": "st008",
+        "image": "https://picsum.photos/id/177/400/700",
+        "createdAt": "2026-05-06T03:15:00Z",
+        "viewersCount": 165
+      },
+      "hasViewed": true
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,13 +1,97 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.w-20{
+    width:20%;
+}
+.w-30{
+    width:30%
+}
+.logo{
+    width: 200px;
+    padding-left: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.sidebar .bi{
+    padding-right: 10px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+@media(max-width:450px){
+    .sidebar .bi{
+        padding: 0px;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    .sidebar img{
+        width: 16px;
+        height: 16px;
+    }
+    .nav-link{
+        font-weight: 600;
+        padding-left: 0px;
+    }
+}
+.sidebar img{
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+
+}
+.sidebar li{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.nav-link{
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.dp{
+    width: 35px;
+    height: 35px;
+}
+.profile .dp{
+    width: 50px;
+    height: 50px;
+}
+.post-space{
+    max-width: 550px;
+    width:75%
+}
+.post-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end-side{
+    width: 300px;
+}
+.mutual-list{
+    width: 175px;
+    overflow: hidden;
+}
+.story-dp{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* border: 3px solid white; */
+    object-fit: cover;
+    display: block;
+}
+.story-ring {
+  padding: 3px;
+  border-radius: 50%;
+  background: linear-gradient(
+    45deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #cc2366,
+    #bc1888
+  );
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
