@@ -25,6 +25,7 @@ A react.js based social media web application inspired by Instagram, built to pr
 ```text
 InstaClone/
 ├── database/
+│   └── db.json
 ├── public/
 ├── src/
 │   ├── assets/
