@@ -1,6 +1,6 @@
 # InstaClone
 
-A full-stack social media web application inspired by Instagram, built to practice modern web development concepts.
+A react.js based social media web application inspired by Instagram, built to practice modern web development concepts.
 
 ## Features
 
@@ -68,7 +68,7 @@ npx json-server --watch database/db.json --port 3001 --static ./database
 
 ## What I Learned
 
-### Through this prokect, I practiced:
+### Through this prokect, I practiced
 
 - Building reusable React componenets
 - Managing state with React hooks
@@ -93,4 +93,5 @@ npx json-server --watch database/db.json --port 3001 --static ./database
 ## Author
 
 Dinesh Selvam
-GitHub: https://github.com/itz-ds
+
+[GitHub](https://github.com/itz-ds)
